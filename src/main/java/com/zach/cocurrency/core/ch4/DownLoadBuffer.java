@@ -29,7 +29,7 @@ public class DownLoadBuffer implements Closeable {
     }
 
     public void write(ByteBuffer buf) throws IOException {
-        int length = byteBuffer.position();
+        int length = buf.position();
         final int capacity = byteBuffer.capacity();
         //当缓存区已满,或者剩余容量不够容纳新数据
         if (offset + length > capacity || length == capacity) {
