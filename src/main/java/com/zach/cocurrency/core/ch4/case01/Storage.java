@@ -1,4 +1,4 @@
-package com.zach.cocurrency.core.ch4;
+package com.zach.cocurrency.core.ch4.case01;
 
 import com.zach.cocurrency.utils.Tools;
 
